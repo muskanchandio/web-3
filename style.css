@@ -1,0 +1,298 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.nav{
+    display: flex;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.left{
+    flex-basis: 90%;
+    
+}
+#p1{
+    letter-spacing: 6px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0%;
+    padding: 8px 18px;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#p1:hover{
+    background-color: lightgray;
+
+}
+.right{
+    display: flex;
+    list-style: none;
+    flex-basis: 30%;
+    margin-left: 800px;
+    margin-right: 20px;
+}
+li{
+    
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 6px;
+    margin-top: 7px;
+    padding: 0%;
+    padding: 10px 20px;
+   margin-bottom: 7px;
+}
+li:hover{
+background-color: lightgray;
+}
+.sec1{
+    background-image: url("architect.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+#p2{
+   margin-top: 370px;
+    font-size: 36px;
+    color: white;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+}
+#t1{
+    background-color: black;
+    padding: 12px ;
+    margin-right: 10px;
+    
+}.sec2{
+    margin-left: 35px;
+}
+
+#p3{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 0%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.pic1{
+    display: flex;
+    margin-top: 40px;
+}
+.pro1{
+    flex-basis: 25%;
+    margin-right: 15px;
+    
+    
+    
+    
+    
+}
+ .pro2{ 
+     flex-basis: 25%;
+     margin-right: 15px;
+   
+}
+.pro3{
+    flex-basis: 25%;
+    margin-right: 15px;
+}
+
+.pro4{
+    flex-basis: 25%;
+
+    margin-right: 15px;}
+
+.pic2{
+    display: flex;
+    margin-right: 15px;
+}
+.proj1{
+flex-basis: 25%;
+margin-right: 20px;
+margin-top: 15px;
+}
+.proj2{
+    flex-basis: 25%;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+   
+.proj3{
+  flex-basis: 25%;
+  margin-right: 18px;
+  margin-top: 15px;
+  
+}
+ 
+.proj4{
+    flex-basis: 25%;
+    margin-right: 15px;
+    margin-top: 15px;
+   
+} 
+
+#p4{
+    font-family: 'Segoe UI', Arial , sans-serif;
+
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    padding-left: 15px ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#p5{
+    font-family: 'Segoe UI', Arial , sans-serif;
+    color:white ;
+    font-size: 15px;
+   background-color: black;
+   padding-left: 15px ;
+   padding-top: 8px;
+   padding-bottom: 8px;
+  width: 40%;
+}
+.sec3{
+    margin:  100px 33px;
+
+}
+#p6{
+    font-size: 25px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 27px;
+
+}
+#p7{
+    font-family: 'Segoe UI', Arial , sans-serif;
+    font-size: 17px;
+    margin-top: 40px;
+}
+   .sec4{
+    display: flex;
+    margin: 50px 33px;
+   }
+   img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+    width: 350px;
+   }  
+   .child1{
+    flex-basis: 25%;
+    
+   }
+   .child2{
+    flex-basis: 25%;
+
+   }
+   .child3{
+    flex-basis: 25%;
+
+   }
+   .child4{
+    flex-basis: 25%;
+
+
+   }
+   #p8{
+    font-size: 27px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    margin-top: 10px;
+   }
+   #p9{
+    color:gray;
+    font-size: 16px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    margin-top: 15px;
+
+   }
+   #p10{
+    font-size: 17px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    margin-top: 15px;
+   }
+   button{
+    background-color: rgb(236, 236, 236);
+    border: none;
+    width: 93%;
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+
+   }
+   button:hover{
+    background-color: rgb(202, 202, 202);
+   }
+   .sec5{
+    margin: 0px 33px;
+   }
+   #p11{
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 27px;
+     letter-spacing: 1px;
+   }
+   #p12{
+    font-size: 17px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    margin-top: 15px;
+    letter-spacing: 1px;
+   }
+   input{
+    width: 98%;
+    padding: 12px;
+    border: 1px solid rgb(214, 211, 211);
+    margin-top: 14px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+   }
+   #b2{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 15%;
+    padding: 15px;
+   }
+   #h1{
+    height: 900px;
+    width: 95%;
+    background-color: aliceblue;
+    margin-left: 28px;
+    margin-right: 30px;
+  margin-top: 50px;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+   }
+.last{
+    display: flex;
+    background-color: black;
+    height: 90px;
+    color: white;
+    margin-top: 5px;
+}
+.m3{
+    flex-basis: 20%;
+    text-align: end;
+    margin-left: 450px;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Arial , sans-serif;
+    
+}
+.m2{
+    flex-basis: 20%;
+    margin-top: 40px;
+
+}
